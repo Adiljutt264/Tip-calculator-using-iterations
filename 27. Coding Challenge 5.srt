@@ -1,0 +1,339 @@
+Jonas>Welcome back to the last and most exciting
+coding challenge of this section.
+So, remember the tip calculator that we created in another challenge.
+
+Let's now create a more advanced version
+using everything that we learned up until this point.
+
+So this time, John and his family
+
+went to five different restaurants.9
+And the bills were 124, 48, 268, 180, and 42 dollars.
+And again, John likes to tip 20 percent
+
+of the bill, when it is less than 50 dollars,
+50 percent if it's between 50 and 200
+and 10 percent if the bill is more than 200 dollars.So, implement using objects and loops this time.So here are the steps for doing that,in order to help you.
+So, first create an object with an array for the bill values.Then, add a method to calculate the tip,and this method should of course include a loop,
+to iterate over all the paid bills,
+and to do the tip calculations.
+Then, as an output, you should again create two arrays.
+
+One containing all the paid tips,
+
+and two, containing all the final paid amount.So again, the bill plus the tip. Alright?
+And a hint that I have to give you here
+is that you can start with two empty arrays
+Okay?
+So an empty array is just like this here.
+And you can start with two empty arrays,
+one for just number one, so all the tips,
+and then two, for all the final paid amounts.
+So start with these two as empty arrays
+and then in a loop, you can fill them up.
+And that is, that Mark's family also went on a holiday.
+
+And they are going to four different restaurants.
+
+And the bill that they paid were
+
+77, 375, 110, and 45 dollars.
+And Mark has a slightly different
+rules when it comes to tipping.
+So he likes to tip 20 percent,if the bill is less than 100 dollars,10 percent, when the bill is between 100 and 300 dollars,and 25 percent if the bill is more than 300 dollars.
+00:02:17,873  -->  00:02:20,047
+So again, that doesn't make much sense maybe,
+55
+
+55
+
+00:02:20,047  -->  00:02:23,179
+but that's just again, to make it a bit more exciting,
+56
+
+56
+
+00:02:23,179  -->  00:02:25,178
+and to make these two tipping functions
+57
+
+57
+
+00:02:25,178  -->  00:02:28,177
+different for each of the persons.
+58
+
+58
+
+00:02:28,177  -->  00:02:29,010
+Okay?
+59
+
+59
+
+00:02:29,010  -->  00:02:30,269
+So, I want you to implement the same
+60
+
+60
+
+00:02:30,269  -->  00:02:33,114
+functionality as before, but this time of course,
+61
+
+61
+
+00:02:33,114  -->  00:02:34,890
+using Mark's tipping rules.
+62
+
+62
+
+00:02:34,890  -->  00:02:38,019
+Then create a function, and I don't mean a method.
+63
+
+63
+
+00:02:38,019  -->  00:02:40,152
+So, like an outside function to calculate
+64
+
+64
+
+00:02:40,152  -->  00:02:43,455
+the average of a given array of tips.
+65
+
+65
+
+00:02:43,455  -->  00:02:45,264
+And here I have to give you another hint,
+66
+
+66
+
+00:02:45,264  -->  00:02:46,367
+because up until this point,
+67
+
+67
+
+00:02:46,367  -->  00:02:48,311
+we never did anything like this.
+68
+
+68
+
+00:02:48,311  -->  00:02:51,237
+Okay and so I give you a hint here to calculate the average.
+69
+
+69
+
+00:02:51,237  -->  00:02:53,631
+And that is that you should loop over the array,
+70
+
+70
+
+00:02:53,631  -->  00:02:56,467
+and in each iteration, store the current sum
+71
+
+71
+
+00:02:56,467  -->  00:02:59,050
+in a variable which starts from zero.
+72
+
+72
+
+00:02:59,050  -->  00:03:00,960
+Then after you have the sum of the array,
+73
+
+73
+
+00:03:00,960  -->  00:03:02,280
+then you'll simply divide it by
+74
+
+74
+
+00:03:02,280  -->  00:03:04,312
+the number of elements in it.
+75
+
+75
+
+00:03:04,312  -->  00:03:07,326
+Okay? So that's the formula for calculating averages.
+76
+
+76
+
+00:03:07,326  -->  00:03:09,006
+So if that's a bit too difficult for you,
+77
+
+77
+
+00:03:09,006  -->  00:03:13,046
+then you can just stop maybe after point five.
+78
+
+78
+
+00:03:13,046  -->  00:03:13,879
+Okay?
+79
+
+79
+
+00:03:13,879  -->  00:03:15,831
+But I would like you to try out,
+80
+
+80
+
+00:03:15,831  -->  00:03:17,641
+to calculate the average, alright?
+81
+
+81
+
+00:03:17,641  -->  00:03:20,006
+So that's here on number seven,
+82
+
+82
+
+00:03:20,006  -->  00:03:21,295
+so you use the function that you
+83
+
+83
+
+00:03:21,295  -->  00:03:22,883
+created in number six to actually
+84
+
+84
+
+00:03:22,883  -->  00:03:25,463
+calculate the average for both families.
+85
+
+85
+
+00:03:25,463  -->  00:03:27,016
+And then you'll log to the console
+86
+
+86
+
+00:03:27,016  -->  00:03:30,328
+which family paid the highest tips on average.
+87
+
+87
+
+00:03:30,328  -->  00:03:31,161
+Alright?
+88
+
+88
+
+00:03:31,161  -->  00:03:33,054
+So, again, this one is a bit tricky maybe,
+89
+
+89
+
+00:03:33,054  -->  00:03:36,536
+so you can, no problem, take an hour or even more
+90
+
+90
+
+00:03:36,536  -->  00:03:39,135
+to try to accomplish this, alright?
+91
+
+91
+
+00:03:39,135  -->  00:03:40,782
+I think it's really important for your
+92
+
+92
+
+00:03:40,782  -->  00:03:42,530
+learning process to go through
+93
+
+93
+
+00:03:42,530  -->  00:03:44,488
+something like this, a bit more difficult even,
+94
+
+94
+
+00:03:44,488  -->  00:03:46,045
+so that you really have to try,
+95
+
+95
+
+00:03:46,045  -->  00:03:47,730
+instead of it being super easy.
+96
+
+96
+
+00:03:47,730  -->  00:03:50,567
+Because then you don't really learn anything, okay?
+97
+
+97
+
+00:03:50,567  -->  00:03:52,172
+So take an hour or something like that to
+98
+
+98
+
+00:03:52,172  -->  00:03:54,102
+really go through this and really try
+99
+
+99
+
+00:03:54,102  -->  00:03:55,633
+to solve these problems.
+100
+
+100
+
+00:03:55,633  -->  00:03:57,788
+Alright? You don't need to be fast.
+101
+
+101
+
+00:03:57,788  -->  00:03:59,447
+Then if there are some parts that
+102
+
+102
+
+00:03:59,447  -->  00:04:01,103
+you cannot figure out, again, no problem,
+103
+
+103
+
+00:04:01,103  -->  00:04:05,520
+you can just check out my solution in the next video.
